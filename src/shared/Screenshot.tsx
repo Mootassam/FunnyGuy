@@ -4,7 +4,7 @@ class Screenshot {
   static handleCaptureScreenshot(divRef: any) {
     if (divRef.current) {
       html2canvas(divRef.current, {
-        scale: 2,
+        scale: 5,
         useCORS: true,
         allowTaint: true,
       }).then((canvas) => {
