@@ -53,29 +53,7 @@ function App() {
           {...toolbarProps}
         />
         <div className="content" ref={divRef}>
-          <div className="app__canvas">
-            {value === "BankChina" ? (
-              <canvas
-                ref={canvasRef as any}
-                width={384}
-                height={801}
-                style={{ cursor }}
-                onMouseDown={startDrawing}
-                onMouseMove={draw}
-                onMouseUp={endDrawing}
-              />
-            ) : (
-              <canvas
-                ref={canvasRef as any}
-                width={360}
-                height={820}
-                style={{ cursor }}
-                onMouseDown={startDrawing}
-                onMouseMove={draw}
-                onMouseUp={endDrawing}
-              />
-            )}
-          </div>
+       
           {value === "800" && size === "small" && <Hkd amount={amount} />}
           {value === "800" && size === "large" && <Bank amount={amount} />}
           {value === "fps" && <Fps amount={amount} />}
