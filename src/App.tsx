@@ -32,7 +32,7 @@ function App() {
     Screenshot.handleCaptureScreenshot(divRef);
   };
   const [value, setValue] = useState("redCross");
-  const [amount, setAmount] = useState(100);
+  const [amount, setAmount] = useState(200);
   const [size, setSize] = useState("small");
   const [
     { cursor, canvasRef, color },
