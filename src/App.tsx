@@ -31,7 +31,7 @@ function App() {
   const handleCaptureScreenshot = () => {
     Screenshot.handleCaptureScreenshot(divRef);
   };
-  const [value, setValue] = useState("alipay");
+  const [value, setValue] = useState("redCross");
   const [amount, setAmount] = useState(100);
   const [size, setSize] = useState("small");
   const [

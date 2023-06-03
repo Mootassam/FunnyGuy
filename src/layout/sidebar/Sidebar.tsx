@@ -22,6 +22,20 @@ function Sidebar({ screenshot, value, setvalue, setAmount, setSize, size
   return (
     <div className="app__sidebar">
       <div className="sidebar__form">
+
+      <div className="form__group">
+          <label htmlFor=""> Write the Amount</label>
+          <select
+       
+            onChange={(e) => setAmount(e.target.value)}
+         
+          >
+            <option value="200">200</option>
+            
+            <option value="800">800</option>
+
+          </select>
+        </div>
         <div className="form__group">
           <label htmlFor=""> Select bank</label>
           <select
@@ -47,37 +61,9 @@ function Sidebar({ screenshot, value, setvalue, setAmount, setSize, size
             </select>
           </div>
         )}
-        <div className="form__group">
-          <label htmlFor=""> Write the Amount</label>
-          <input
-            type="text"
-            onChange={(e) => setAmount(e.target.value)}
-            maxLength={7}
-          />
-        </div>
-        <div className="form__group">
-          <label htmlFor="">Tools</label>
-          <div className="app__tools">
-            <input type="color" value={color} onChange={changeColor} className="btn--color" />
-            <button className="undo" onClick={undo}>
-              <FaUndo />
-            </button>
-            <button onClick={erase} className="erase__button">
-              <FaEraser />
-            </button>
-          </div>
-        </div>
-        <div className="form__group">
-          <label htmlFor="">Brush Size</label>
-          <input
-            type="range"
-            min="1"
-            max="70"
-            value={brushSize}
-            onChange={changeBrushSize}
-          />
-          <button onClick={clear} className="clear__button">Clear</button>
-        </div>
+   
+    
+
       </div>
       <div className="app__screenshot" onClick={() => screenshot()}>
         <img src="/sidebar/screenshot.png" alt="" width={80} />
