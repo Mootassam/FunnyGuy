@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&display=swap");
+
+.app__fly3 {
+  width: 373px;
+  height: 800px;
+  background-color: #fff;
+  position: relative;
+}
+
+.fly3__header {
+  padding: 10px 28px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fly3__content {
+  width: 338px;
+  height: 458px;
+  margin: auto;
+  background: #ffffff;
+  background-image: url("/public/Fly3/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 14px;
+}
+
+.fly3__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+  flex-direction: column;
+}
+
+.fly3__title {
+  padding-top: 10px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.9px;
+
+  /* or 2px */
+
+  display: flex;
+  align-items: center;
+
+  color: #333335;
+}
+
+.fly3__amount {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.3px;
+  padding-top: 12px;
+
+  /* or 2px */
+
+  display: flex;
+  align-items: center;
+
+  color: #0f0f11;
+}
+
+.fly3__bar {
+  display: flex;
+  padding-top: 23px;
+}
+
+.fly3__detaill {
+  display: flex;
+  flex-direction: column;
+  padding-top: 29px;
+  padding-left: 21px;
+}
+
+.detaill__fly3__left {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 72%;
+
+  /* or 1px */
+
+  display: flex;
+  align-items: center;
+
+  color: #a3a2a8;
+}
+
+.detaill__fly3__right {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.3px;
+
+  /* or 2px */
+
+  display: flex;
+  align-items: center;
+
+  color: #333335;
+}
+
+.detaill__fly3 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.__payto {
+  padding-top: 23px;
+}
+
+.__proxyid {
+  padding-top: 20px;
+}
+
+.__datetime {
+  padding-top: 25px;
+}
+
+.fly3__bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 43px;
+  background: #010101;
+}
+
+.fly__bottomfly3 {
+  position: absolute;
+  bottom: 0;
+}
+.mobile__bottom {
+  width: 373px;
+  height: 43px;
+  display: grid;
+  place-items: center;
+
+  background: #010101;
+}
+
+.done__fly3 {
+  width: 335px;
+  height: 41px;
+
+  background: #24104d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.done__fly3 > span {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 84%;
+  /* identical to box height, or 12px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.done__fly3 {
+  margin: auto;
+
+  display: grid;
+  place-items: center;
+}
+.mobile__bottom {
+  margin-top: 17px;
+}
+
+.header__timefly3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 12%;
+  gap: 2px;
+  /* or 2px */
+
+  display: flex;
+  align-items: center;
+
+  color: #626262;
+}
+
+.fly3__right > label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 12%;
+  /* or 2px */
+
+  display: flex;
+  align-items: center;
+
+  color: #626262;
+}
+
+/* styling the battery */
+
+.fly3__right {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.fly3__battery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.battery__fly3 {
+  display: flex;
+  align-items: flex-end;
+  width: 8px;
+  height: 10px;
+  background-color: #bababa;
+}
+
+.top__fly3 {
+  width: 5px;
+  height: 1px;
+  background: #bababa;
+}
+
+.level__fly3 {
+  width: 8px;
+  height: 6px;
+  background-color: #434343;
+}
+
+/* styling the data  */
+
+.review__datafly3 {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+}
+
+.review__datafly3 > div {
+  width: 1px;
+  background-color: #626262;
+}
+
+.fly3__1 {
+  height: 2px;
+}
+.fly3__2 {
+  height: 4px;
+}
+.fly3__3 {
+  height: 6px;
+}
+.fly3__4 {
+  height: 8px;
+}
+.fly3__5 {
+  height: 10px;
+}

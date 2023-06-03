@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.app__alipay {
+  width: 359px;
+  height: 800px;
+  background-color: #f5f5f5;
+  position: relative;
+  padding: 17px 9px 6px 9px;
+}
+
+.alipay {
+  position: relative;
+  height: 777px;
+}
+
+.alipay__time {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 112.19%;
+  /* or 17px */
+  gap: 2px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.alipay__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 112.19%;
+  /* or 19px */
+
+  color: #000000;
+}
+
+.alipy__bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+
+.alipy__bottom > img {
+  padding-bottom: 8px;
+}
+
+.alipay__footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 131.38px;
+  height: 4.01px;
+
+  background: #000000;
+  border-radius: 2px;
+  bottom: 0;
+}
+
+.alipay__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8.02px;
+  height: 11px;
+}
+
+.alipay__right {
+  display: flex;
+ align-items: baseline;
+  gap: 4px;
+}
+.alipay__namedata {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 112.19%;
+  /* identical to box height, or 12px */
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #000000;
+  height: 11px;
+ 
+}
+
+/* styling the battery  */
+
+.alipay__level {
+  width: 43%;
+  height: 100%;
+
+  background: #000000;
+  border-radius: 1px;
+}
+.alipay__battery {
+  width: 21.06px;
+  height: 12.02px;
+  border: 1px solid #909090;
+  border-radius: 2px;
+  padding: 1px;
+  align-items: center;
+ 
+}
+
+.alipyabar {
+  width: 1px;
+  height: 1px;
+  background-color: #909090;
+}
+
+.alipay__borderbattery {
+  width: 2px;
+  height: 5px;
+  background-color: #909090;
+}
+
+.battt__ {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.6px;
+  height: 11px;
+}
+
+.alipay__data {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+  top: 1px;
+}
+.alipay__data > div {
+  width: 3px;
+  background-color: #000;
+}
+
+.alipay__1 {
+  height: 4.01px;
+}
+.alipay__2 {
+  height: 6.01px;
+}
+.alipay__3 {
+  height: 8.01px;
+}
+.alipay__4 {
+  height: 11.01px;
+  background: #d9d9d9 !important;
+}
+
+
+
+/* 
+stlying the alipay  content  */
+
+.alipay__content {
+  padding-top: 25.03px;
+}
+
+/* styling the alipay subheader */
+
+.alipay__subheader {
+  display: flex;
+  gap: 142px;
+}
+
+.alipay__background {
+  margin-top: 13px;
+  width: 341px;
+  padding-bottom: 13px;
+
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+.alipay__subfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.subfooter {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.6px;
+  line-height: 112.19%;
+  /* or 14px */
+
+  display: flex;
+  align-items: center;
+
+  color: #a0a0a0;
+}
+
+/* stlying the button  */
+
+.alipay__button {
+  display: flex;
+  gap: 14.02px;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.button__1 {
+  width: 341.99px;
+  height: 44.06px;
+
+  background: #1c81d3;
+  border-radius: 6px;
+  display: grid;
+  place-items: center;
+}
+
+.button__2 {
+  display: grid;
+  place-items: center;
+  width: 342.14px;
+  height: 55.07px;
+
+  border: 1.5px solid #b0def6;
+  border-radius: 6px;
+}
+
+.button__1 > label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.6px;
+  line-height: 112.19%;
+  /* or 20px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.button__2 > label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.6px;
+  line-height: 112.19%;
+  /* or 20px */
+
+  display: flex;
+  align-items: center;
+
+  color: #2f73a0;
+}
+
+/* stlyling the image of logo */
+.background__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background__ {
+  padding-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.background__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.3px;
+  line-height: 112.19%;
+  /* identical to box height, or 17px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  padding-top: 19px;
+}
+.background__subtitle {
+  width: 41.12px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5px;
+  line-height: 112.19%;
+  /* identical to box height, or 15px */
+
+  display: flex;
+  align-items: center;
+
+  color: #a9a9a9;
+  padding-top: 20px;
+}
+
+.background__amount {
+  padding-top: 17px;
+  display: flex;
+  align-items: baseline;
+}
+
+.alipay__currency {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.4px;
+  line-height: 112.19%;
+  /* or 17px */
+
+  display: flex;
+  align-items: center;
+
+  color: #060606;
+}
+.alipay__amoutn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 112.19%;
+  /* identical to box height, or 25px */
+
+  display: flex;
+  align-items: center;
+
+  color: #060606;
+}
+
+.alipay__bar {
+  margin-top: 18px;
+  border: 0.7px solid #f0f0f0;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.alipaydetail__left {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.4px;
+  line-height: 112.19%;
+  /* identical to box height, or 17px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.alipaydetail__right {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 112.19%;
+  /* identical to box height, or 17px */
+
+  display: flex;
+  align-items: center;
+
+  color: #8f8f8f;
+}
+
+.alipay__address {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 311px;
+}
+
+.inside__bar {
+}

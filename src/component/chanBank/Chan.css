@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap");
+.app__chan {
+  width: 369px;
+  height: 798px;
+  background-image: url("/public/Chan/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  position: relative;
+}
+
+/* styling the header */
+
+.chan__header {
+  padding: 19px 15px 0 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chan__right {
+  display: flex;
+  align-items: first baseline;
+  gap: 4px;
+}
+
+
+.chan__battery {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.battery__chan {
+  display: block;
+  align-items: center;
+  padding: 1px;
+}
+
+.chan__time {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.5px;
+  line-height: 112.19%;
+  /* or 16px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.battery__chan {
+  width: 22px;
+  height: 12px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.chan__level {
+  width: 5%;
+  height: 100%;
+  background: #000000;
+  border-radius: 2px;
+}
+
+.chan__borderbattery {
+  width: 2px;
+  height: 4px;
+  border-radius: 0.7px;
+  background: #000000;
+}
+
+/* stlying the content of the payment */
+
+.chan__circle {
+  display: flex;
+  width: 51px;
+  height: 51px;
+  background: #000002;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.chan__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 112.19%;
+  /* or 22px */
+
+  text-align: center;
+  color: #000000;
+}
+
+.chan__top {
+  padding-top: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.chan__button {
+  width: 352px;
+  height: 49px;
+
+  background: #000000;
+  border-radius: 28px;
+  margin: auto;
+}
+
+.chan__submobile {
+  width: 131px;
+  height: 5px;
+
+  background: #010303;
+  border-radius: 5px;
+}
+
+.chan__button > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 112.19%;
+  /* identical to box height, or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.chan__button {
+  display: grid;
+  place-items: center;
+}
+
+.chan__footer {
+  position: absolute;
+  bottom: 7px;
+}
+
+.chan__submobile {
+  margin: auto;
+}
+
+.chan__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+/* styling the chan detraill */
+.chan__detail {
+  margin-top: 29px;
+  width: 369px;
+  height: 181px;
+  background: #ffffff;
+  border-radius: 22px;
+}
+
+.firstline__circle {
+  width: 36px;
+  height: 35px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+.firstline__circle > span {
+  padding: 9px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.2px;
+  line-height: 112.19%;
+  /* identical to box height, or 15px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.firstline__left {
+  display: flex;
+  gap: 14px;
+}
+
+.first__top {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 112.19%;
+  /* or 13px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.first__bottom {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 112.19%;
+  /* or 12px */
+
+  display: flex;
+  align-items: center;
+
+  color: #555555;
+}
+
+.firstline__right {
+  display: flex;
+  gap: 2.2px;
+}
+
+.detaills {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.detaill__firtline {
+  display: flex;
+  align-items: center;
+  padding: 22px 22px 0 20px;
+  justify-content: space-between;
+}
+
+.right__amoutn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 112.19%;
+  /* identical to box height, or 15px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.right__currency {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 112.19%;
+  /* or 13px */
+
+  display: flex;
+  align-items: center;
+
+  color: #545454;
+}
+
+.second__line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 22.5px 22px 0px 20px;
+}
+.secondline__left > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 112.19%;
+  /* or 12px */
+
+  display: flex;
+  align-items: center;
+
+  color: #717171;
+}
+
+.secondline__right > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 112.19%;
+  /* identical to box height, or 14px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.chan__lastline {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 18px;
+}
+
+.chan__lastline > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 112.19%;
+  /* identical to box height, or 14px */
+
+  display: flex;
+  align-items: center;
+
+  color: #717171;
+}
+.chan__bars {
+  padding-top: 20px;
+  display: flex;
+  margin: auto;
+}
+
+/* stlying the data  */
+.name__data {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.3px;
+  line-height: 112.19%;
+  /* or 12px */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.data__chan {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+}
+
+.data__chan > div {
+  width: 3px;
+  border-radius: 1px;
+  background: #000000;
+}
+
+.chan__1 {
+  height: 3px;
+  border-radius: 1px;
+}
+
+.chan__2 {
+  height: 6px;
+}
+
+.chan__3 {
+  height: 9px;
+}
+
+.chan__4 {
+  height: 11px;
+}

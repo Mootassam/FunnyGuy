@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.app__fps {
+  background-color: #ededed;
+  width: 360px;
+}
+
+.fps__header {
+  height: 83px;
+}
+.fps__battery {
+  padding: 12px 20.5px 19px 20.5px;
+}
+.fps__right 
+{ display: flex;
+align-items: center;}
+
+.pay__right{ 
+  display: flex;
+  align-items: center;
+  gap:2px
+}
+.fps__left {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 112.19%;
+  color: #797979;
+  display: flex;
+  align-items: center;
+  gap:2px
+}
+
+.fps__transfer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15.5px;
+  padding-right: 21.5px;
+}
+
+.fps__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.6px;
+  line-height: 112.19%;
+  /* identical to box height, or 22px */
+
+  color: #000000;
+}
+
+.fps__content {
+  background-color: #f2f2f2;
+  height: 667.5px;
+}
+
+.content__header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.3px;
+  line-height: 112.19%;
+  /* or 19px */
+  color: #29a979;
+  padding-top: 14px;
+  padding-left: 42px;
+  padding-bottom: 18px;
+}
+
+.content__background {
+  padding-top: 32px;
+  background: #ffffff;
+  width: 329px;
+  margin: auto;
+  margin-bottom: 17.5px;
+  background-image: url("/fps/logo.png");
+}
+.background__successful {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.5px;
+  line-height: 112.19%;
+  /* or 24px */
+
+  color: #000000;
+}
+
+.successfull__message {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.successfull__message > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 112.19%;
+  /* identical to box height, or 17px */
+
+  color: #858585;
+}
+.top__header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 18.5px;
+}
+
+.__transfereno {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bar__dashed {
+  width: 100%;
+  height: 0px;
+  border: 0.3px dashed #aeaeae;
+}
+
+.content__detaill {
+  padding: 20.5px 16.5px 32px 19.5px;
+}
+.amount__label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 112.19%;
+  /* identical to box height, or 17px */
+
+  color: #000000;
+}
+
+.detail__amount {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.amount__ {
+  display: flex;
+  align-items: flex-start;
+}
+
+.fps__battery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.battery__fps {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.data__fps {
+  display: flex;
+  gap: 1px;
+  align-items: baseline;
+}
+
+.data__fps > div {
+  width: 1.5px;
+  background-color: #707070;
+}
+
+.fps__1 {
+  height: 3px;
+}
+.fps__2 {
+  height: 5px;
+}
+.fps__3 {
+  height: 8px;
+}
+.fps__4 {
+  height: 10px;
+}
+/* stlying the battery for the fps */
+
+.battery__f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.battery__fp {
+  width: 6px;
+  height: 10px;
+  background: #525252;
+}
+.batterytop {
+  width: 3px;
+  height: 1px;
+  background: #525252;
+}
+.battery__fps > label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 112.19%;
+  /* identical to box height, or 15px */
+  color: #797979;
+}
+.amount__currency {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.7px;
+  line-height: 112.19%;
+  /* identical to box height, or 20px */
+
+  color: #000000;
+  padding-top: 7px;
+}
+.currency__ {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 112.19%;
+  /* identical to box height, or 15px */
+
+  color: #000000;
+  padding-right: 4px;
+  padding-top: 9px;
+}
+
+.amount {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 112.19%;
+  /* or 48px */
+  height: 39px;
+  color: #000000;
+}
+
+.payee__name {
+  display: flex;
+  padding-top: 14px;
+  justify-content: space-between;
+}
+
+.__transfermoney {
+  height: 62px !important;
+}
+.payment__right {
+  display: flex;
+}
+
+.payment__left {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 112.19%;
+  /* identical to box height, or 18px */
+
+  color: #848484;
+}
+.payment__right {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 112.19%;
+  /* identical to box height, or 18px */
+
+  color: #848484;
+}
+
+.__transfer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.__gap4px {
+  padding-top: 4px;
+}
+.__gap8px {
+  padding-top: 8px;
+}
+
+.qrcode__message {
+  display: flex;
+  flex-direction: column;
+  padding-left: 19.5px;
+}
+.qrcode__message > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.1px;
+  line-height: 112.19%;
+  /* identical to box height, or 18px */
+
+  color: #29a979;
+}
+
+.payment__qrcdoe {
+  display: flex;
+  gap: 21px;
+  padding-top: 25px;
+  align-items: flex-end;
+  padding-bottom: 17px;
+}
+
+.fps__phone {
+  height: 47px;
+  background: #ededed;
+}
+
+.fps__footer {
+  display: grid;
+  place-items: center;
+  width: 359px;
+  height: 47px;
+  background: #ededed;
+}

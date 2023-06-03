@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.app__china {
+  width: 384px;
+  height: 801px;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.china__header {
+  padding-top: 32px;
+  padding-left: 6px;
+  padding-bottom: 6px;
+  position: relative;
+  z-index: 2;
+}
+
+/* styling the content china bank */
+
+.backgroundchina__image {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 110px;
+}
+
+.china__content {
+  position: relative;
+  z-index: 2;
+}
+
+.contentchina__detail {
+  padding: 0 16px 0 17.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.china__left {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.4px;
+  line-height: 20px;
+
+  color: #969696;
+}
+
+.china__right {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #3b3b3b;
+}
+
+.__topspace {
+  padding-top: 17px;
+}
+.normalspace {
+  padding-top: 16px;
+}
+
+.__chinadate {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #3c3c3c;
+}
+
+.__detail {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-end;
+}
+
+.__specialfont {
+  font-size: 17.3px !important;
+}
+.__normalfont {
+  font-size: 17px;
+}

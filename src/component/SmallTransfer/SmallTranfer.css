@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap");
+
+.app__smalltransfer {
+  width: 374px;
+  height: 802px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.smalltransfer__header {
+  display: flex;
+  padding: 6px 17px 14px;
+  justify-content: space-between;
+}
+
+.small__bottom {
+  position: absolute;
+  bottom: 0;
+  height: 13px;
+  width: 100%;
+  background: #000000;
+  display: grid;
+  place-items: center;
+  margin-top: 18px;
+}
+
+.time__small {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.7px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #686868;
+}
+
+.title__acknwledgment {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #252525;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transfer__bar {
+  margin-top: 7px;
+  border: 1px solid #e7e7e7;
+}
+
+.completedcirlce {
+  width: 47px;
+  height: 47px;
+  background: #34a344;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+/* styling the transactioncomplted */
+
+.small__transcationcompleted {
+  display: flex;
+  gap: 24px;
+  padding-top: 32px;
+  padding-left: 31px;
+  padding-bottom: 30px;
+}
+.completed__right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.completed__top {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.7px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #363636;
+}
+
+.completed__bottom {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3px;
+  line-height: 14px;
+  color: #777777;
+}
+
+.transfers__bar {
+  width: 345.5px;
+  height: 0px;
+  margin: auto;
+  border: 1px solid #e7e7e7;
+}
+
+.pay__receieved {
+  border-top: 2px solid #e7e7e7;
+  margin: 0 13.5px 0 15px;
+  padding: 15px 0 15px;
+  border-bottom: 2px solid #e7e7e7;
+  padding-left: 6px;
+}
+.pay__receieved > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3px;
+  line-height: 14px;
+  color: #585858;
+}
+
+.space__between {
+  width: 374px;
+  height: 6px;
+  background: #ededed;
+}
+
+/* styling the to__right */
+
+.completed__to {
+  padding-top: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.to__left > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3px;
+  line-height: 14px;
+  color: #494949;
+}
+
+.to__right {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.to__right > span:nth-child(1) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.3px;
+  line-height: 14px;
+
+  color: #1b1b1b;
+}
+.to__right > span:nth-child(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.4px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  color: #3a3a3a;
+}
+.receiving__bank {
+  padding-top: 17px;
+  padding-left: 15px;
+  padding-right: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bank__right {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.005em;
+  color: #242424;
+}
+
+.from__bank {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bank__right {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.small__bar {
+  padding-top: 16px;
+  display: flex;
+}
+
+.bank__right > span:nth-child(1) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.3px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #1a1a1a;
+}
+.bank__right > span:nth-child(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #3a3a3a;
+}
+
+/* stlying the amount  */
+
+.detaill__completed {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detaill__completeds {
+  padding-top: 16px;
+  padding-left: 14px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.bank__left {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.7px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.025em;
+
+  color: #494949;
+}
+
+.bank__right {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #242424;
+}
+
+.__message {
+  gap: 3px;
+}
+
+.detaill__mynotes {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.button__transferpay {
+  background: #018845;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.button__makeanother {
+  background: #ffffff;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+}
+.button__transferpay > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.button__makeanother > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.9px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #616161;
+}
+
+.bottom__border {
+  width: 112px;
+  height: 4px;
+
+  background: #5c5c5c;
+  border-radius: 6px;
+}
+
+/* stytling the app favourite */
+
+.app__favourite {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app__favourite span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3px;
+  line-height: 14px;
+
+  color: #008000;
+}
+
+.transfer__bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.detaill__buttons {
+  padding: 14px 15px 18px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  background: #ffffff;
+  box-shadow: 0px -1.2px 10px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800&display=swap");
+
+.app__blue {
+  width: 408px;
+  height: 800px;
+  background-color: #ffff;
+  position: relative;
+}
+
+.blue__header {
+  padding: 11px 11px 0 11px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blueheader__right {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #1f5f83;
+}
+
+/* styling the footer */
+
+.blue__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 17px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.footer__text {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #326d8f;
+}
+
+.blue__circle {
+  width: 50px;
+  height: 50px;
+  background-color: #002d71;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.content__headesr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blue__textunderblue {
+  padding-top: 19px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #092868;
+}
+
+.blue1__description {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.2px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #092868;
+}
+.blue2__description {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+
+  color: #092868;
+}
+.blue__circledescription {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  word-wrap: break-word;
+  white-space: pre-line;
+ 
+  
+}
+.wrapp__text{ 
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+
+
+.blue__caractere {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #0a327b;
+}
+
+.blue__doublecaractere {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #092868;
+}
+
+.blue__one {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #092868;
+}
+
+.blue__lastdescription {
+  padding-top: 10px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #333333;
+}
+
+/* syling the detaill */
+
+.blue__detaill {
+  padding-top: 17px;
+}
+
+.first__detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.label__detail {
+  font-family: "Overpass";
+  font-weight: 500;
+  font-size: 15.7px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #666666;
+}
+
+.label__numb {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.005em;
+
+  color: #353535;
+}
+
+.detail__label {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 27px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #353535;
+}
+
+.second__detail {
+  padding-top: 36px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.third__detail {
+  padding-top: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.label__date {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #353535;
+}
+
+.fast__transfer {
+  padding-top: 29px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #595959;
+}
+.chinese__text {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.8px;
+  line-height: 20px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #595959;
+}
+
+.oneconnect__description {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #595959;
+}
+
+.description__oneconenct > div {
+  display: flex;
+  align-items: center;
+}
+.description__oneconenct {
+  padding-top: 17px;
+}
+
+.blue__content {
+  padding-top: 41px;
+}

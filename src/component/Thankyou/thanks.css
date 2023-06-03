@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.app__thankyou {
+  width: 381px;
+  height: 815px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.left__ {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.8px;
+  line-height: 20px;
+
+  color: #000000;
+}
+.thankyou__header {
+  display: flex;
+  flex-direction: column;
+}
+.header__battery {
+  display: flex;
+  padding: 17px 25px 0px 41px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name__datas {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.header__confirmation {
+  padding-top: 22px;
+  display: flex;
+  gap: 105px;
+  padding-left: 20px;
+}
+
+.confirmation__name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.2px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #353535;
+}
+.right__ {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.data__cnx {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+}
+.data__cnx > div {
+  width: 3px;
+}
+.cnx__1 {
+  width: 3px;
+  height: 4px;
+  background-color: #000;
+}
+.cnx__2 {
+  height: 7px;
+  background-color: #000;
+}
+.cnx__3 {
+  height: 9px;
+  background-color: #000;
+}
+.cnx__4 {
+  height: 12px;
+  background-color: #cbcbcb;
+}
+.name__data {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.right__battery {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+.thank__battery {
+  width: 24px;
+  height: 13px;
+  background: #d9d9d9;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+}
+.small__ {
+  width: 2px;
+  height: 6px;
+  background: #d9d9d9;
+}
+
+
+.battery__level{ 
+  height: 100%;
+  background-color: #000000;
+  width: 70%;
+  border-radius: 20%;
+}
+
+.battery__text {
+  font-family: "Inter";
+  margin: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}
+
+.thankyou__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 47px;
+  background: #00847f;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.thankyou__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.thankyou__text {
+  padding-top: 9px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.7px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #353535;
+}
+
+.thankyou__detaill {
+  padding-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #353535;
+}
+
+.thankyou__address {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 15px 0 15px;
+}
+
+.thankyou__address > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address__left {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 112.19%;
+  /* identical to box height, or 16px */
+
+  color: #353535;
+}
+
+.address__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 112.19%;
+  /* identical to box height, or 16px */
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  color: #353535;
+}
+
+.thankyou__bar {
+  width: 350px;
+  height: 0px;
+  border: 0.9px solid #dddddd;
+}
+
+.thankyou__to {
+  padding-top: 13px;
+  padding-bottom: 12px;
+}
+
+.thankyou__amount {
+  padding-top: 22px;
+  padding-bottom: 21px;
+}
+.__date {
+  margin-bottom: -7px !important;
+}
+._amount {
+  display: flex !important;
+  flex-direction: row;
+  gap: 2px;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 112.19%;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #111111;
+}
+.__date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  line-height: 16px !important;
+  /* identical to box height */
+  padding-bottom: -14px !important;
+  letter-spacing: 0.025em !important;
+  color: #353535 !important;
+}
+
+.important__information {
+  width: 100%;
+  height: 24px;
+  background: #ededed;
+  display: flex;
+  align-items: center;
+}
+
+.information__ {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #141414 !important;
+  padding-left: 15px;
+}
+
+.service__important {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+  padding-left: 52px;
+  padding-top: 9px;
+  padding-bottom: 17px;
+}
+
+.thankyou__from {
+  padding-bottom: 14px;
+}
+
+/* styling the button */
+
+.service__transfer {
+  width: 350px;
+  height: 43px;
+  border: 0.8px solid #000000;
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+
+.transfer__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #323232;
+}
+
+.thank__buttom {
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  margin-top: 30px;
+  width: 135px;
+  height: 4px;
+  background: #000000;
+  border-radius: 2px;
+}
+
+.button__tranfer {
+  position: relative;
+  top: -20px;
+  display: grid;
+  place-items: center;
+  width: 381px;
+  height: 94px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+.__thank__date {
+  padding-bottom: -9px;
+}

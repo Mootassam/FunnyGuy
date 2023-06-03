@@ -1,0 +1,280 @@
+.app__redcross {
+  width: 369px;
+  height: 800px;
+  background-color: #fff;
+  position: relative;
+}
+
+.cross__button {
+  width: 130px;
+  height: 4px;
+  background: #999999;
+  border-radius: 2px;
+}
+
+.redcross__bottom {
+  bottom: 8.5px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33.5px;
+}
+
+.redcross__button {
+  width: 267px;
+  height: 42px;
+  background: #ff7740;
+  border-radius: 25px;
+  display: grid;
+  place-items: center;
+}
+
+.redcross__button > span {
+  width: 33px;
+  height: 19px;
+  font-family: "Alte Haas Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.3px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+/* styling the header */
+
+.redcross__header {
+}
+
+.redcross__top {
+  padding: 14px 13px 21px 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.redcross__detaill {
+  padding: 0 14px;
+}
+
+.redcross__detaill > div {
+}
+
+.redcross__time > span {
+  width: 30px;
+  height: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.redcross__subheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.redcross__subheader > span {
+  width: 76px;
+  height: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.red__left > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.1px;
+  line-height: 18px;
+
+  color: #959595;
+}
+
+.red__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red__right > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.5px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #464646;
+}
+
+.bar__ {
+  width: 100%;
+  margin: auto;
+}
+
+.right__cross > span {
+  font-family: "Alte Haas Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #464646;
+}
+
+.cross__line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right__cross > span {
+  font-family: "Alte Haas Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #464646;
+}
+
+.right__cross {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.second {
+  padding-top: 33px;
+}
+
+.cross__check {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+.cross__check > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #318957;
+}
+
+.currency__cross {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  color: #e97858 !important;
+}
+
+.cross__amount {
+  padding-left: 8px;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  color: #e97858 !important;
+}
+
+/* stlying the data and the battery  */
+
+.redcross__data {
+  display: flex;
+  gap: 1px;
+  align-items: baseline;
+}
+
+.corss__1 {
+  width: 3px;
+  height: 3px;
+  border-radius: 1px;
+  background-color: #000000;
+}
+
+.cross__2 {
+  width: 3.5px;
+  height: 4.5px;
+  background-color: #000000;
+  border-radius: 1px;
+}
+
+.cross__3 {
+  width: 3px;
+  height: 6.75px;
+  background-color: #000000;
+  border-radius: 1px;
+}
+
+.cross__4 {
+  width: 3.5px;
+  height: 9.37px;
+  background-color: #000000;
+  border-radius: 1px;
+}
+
+.redcross__baterry {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  
+}
+
+.redcross__4G > span {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.7px;
+    line-height: 17px;
+    /* identical to box height, or 121% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.154px;
+    color: #000000;
+}
+
+.cross__border {
+  width: 1px;
+  height: 3px;
+  background-color: #585858;
+}
+
+.redcross__batter{ 
+  align-items: center;
+  gap:1px;
+    display: flex;
+}
+
+
+.cross__battery{ 
+    width: 21px;
+height: 11px;
+padding: 1px;
+border: 1px solid #7E7E7E;
+border-radius: 3px;
+}
+
+
+
+.cross__level{ 
+    width: 15px;
+height: 7px;
+
+background: #000000;
+}
+

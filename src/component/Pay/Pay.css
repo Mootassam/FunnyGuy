@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.app__pay {
+  width: 361px;
+  height: 802px;
+  background-color: #fff;
+  position: relative;
+}
+
+.pay__header {
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+}
+.pay__time {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.pay__time {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.3px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #606060;
+  padding-left: 33px;
+}
+
+.pay__battery > label {
+}
+
+.sub__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+  padding-bottom: 29px;
+}
+
+.pay__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 47px;
+}
+
+.pay__amount {
+  display: flex;
+  align-items: baseline;
+}
+
+.pay__currency {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #880c28;
+  padding-right: 8px;
+}
+
+.pay__totlaamount {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 55px;
+  /* identical to box height */
+
+  color: #880c28;
+}
+
+.pay__rest {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #880c28;
+}
+
+.pay__reference {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #808080;
+  padding-top: 13px;
+  padding-left: 15px;
+}
+
+.message__detail {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -5px;
+}
+
+.message__circle {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  background: #00bec5;
+  border-radius: 50%;
+}
+
+.message__detail > span:nth-child(1) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.message__detail > span:nth-child(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.1px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.pay__message {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+
+.pay__from {
+  /* margin-top: 46px; */
+  margin: auto;
+  width: 320px;
+  height: 253px;
+  background-image: url("/public/pay/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 0px;
+  border-radius: 4px;
+  overflow: hidden;
+
+  /* filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+.__small {
+  margin-top: 12px;
+  height: 67px !important;
+  margin-bottom: 16px;
+}
+
+/* styling the button */
+.pay__button {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__transfer {
+  width: 320px;
+  height: 48px;
+
+  background: #c53455;
+  border-radius: 44px;
+  display: grid;
+  place-items: center;
+}
+.button__save {
+  width: 320px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+
+  border: 1px solid #c0c0c0;
+  border-radius: 44px;
+}
+
+.button__save > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.21px;
+  line-height: 21px;
+
+  color: #343434;
+}
+
+.button__transfer > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.21px;
+  line-height: 21px;
+
+  color: #fff0f1;
+}
+
+.__to {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.__to > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #444444;
+}
+
+.__from {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.__from > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.1px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #444444;
+}
+.__from > span:nth-child(1) {
+  display: flex;
+  gap: 4px;
+}
+.pay__account {
+  height: 58px;
+  width: 314px;
+  margin: auto;
+
+  background: #f8f8f8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-left: 13px;
+}
+
+.pay__account > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #363636;
+}
+
+.pay__detail {
+  padding: 15px 15px 28px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.pay__detail > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detaill__payleft {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #6a6a6a;
+}
+
+.detaill__payright {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  align-items: flex-end;
+  /* identical to box height */
+
+  color: #606060;
+}
+
+.pay__grey {
+  color: #5f5f5f !important;
+}
+
+.__third {
+  color: #404040;
+}
+/* 
+styling the mobile footer */
+
+.pay__bottom {
+  position: absolute;
+  bottom: 0;
+  width: 361px;
+  height: 41px;
+  display: grid;
+  place-items: center;
+  background: #f6f6f6;
+}
+
+.pay__battery > label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.3px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #606060;
+}
+
+
+.pay__rights{ 
+  display: flex;
+  align-items:center;
+  gap:3px
+}
+
+
+.pay__battery {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.battery__pay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.batterypay {
+  width: 7px;
+  height: 9px;
+  background: #444444;
+}
+.paylevel {
+  width: 3px;
+  height: 1px;
+  background: #444444;
+}
+
+.pay__data {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+}
+
+.pay__data > div {
+  width: 1.6px;
+  background-color: #606060;
+}
+.pay1__ {
+  height: 4px;
+}
+.pay2__ {
+  height: 6px;
+}
+.pay3__ {
+  height: 8px;
+}
+.pay4__ {
+  height: 10px;
+}

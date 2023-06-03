@@ -1,0 +1,297 @@
+@font-face {
+    font-family: "Alte Haas Grotesk";
+    src: url("../../fonts/altehaasgroteskregular.ttf");
+}
+
+.app__orange {
+    width: 370px;
+    height: 802px;
+    background-color: #fff;
+    position: relative;
+}
+
+.orange__header {
+    padding: 13px 15px 22px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orange__time {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.3px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.orange__4g {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.6px;
+    line-height: 13px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.orange__subheader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 7px;
+}
+
+.subheader__bar {
+    display: flex;
+}
+
+.subheader__bar>div {
+    height: 5px;
+}
+
+.__red {
+    background: #ec001b;
+    width: 142px;
+}
+
+.__orange {
+    background: #ff5900;
+    width: 86px;
+    background: #ff5900;
+}
+
+.__yellow {
+    width: 142px;
+    background: #fa9d11;
+}
+
+.subheader__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.orange__detaill {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 0 14px;
+}
+
+.orange__detaill>div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* stlying the bottom of the orange  */
+
+.orange__bottom {
+    position: absolute;
+    bottom: 7px;
+    background: #595959;
+    border-radius: 3px;
+    width: 132px;
+    height: 4px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.orange__transaction {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.orange__transaction>label {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.05em;
+    color: #2d2d2d;
+}
+
+.orange__name {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #7b7b7b;
+}
+
+.text__amount {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+
+.orange__card {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.1px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #7b7b7b;
+}
+
+.amoutn__orange {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.9px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #7b7b7b;
+}
+
+.payname__orange {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 17px;
+    color: #7b7b7b;
+    padding-top: 1px;
+}
+
+.transaction__orange {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    padding-top: 2px;
+    letter-spacing: -0.055em;
+    color: #6f6f6f;
+}
+
+.ref__orange {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.9px;
+    line-height: 18px;
+    color: #7b7b7b;
+    padding-top: 1px;
+}
+
+.status__orange {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.8px;
+    line-height: 18px;
+    padding-top: 2px;
+    color: #7b7b7b;
+}
+
+.orange__date {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #7b7b7b;
+}
+
+.__16 {
+    padding-top: 16px !important;
+}
+
+.__13 {
+    padding-top: 13px !important;
+}
+
+.__14 {
+    padding-top: 14px !important;
+}
+
+.__19 {
+    padding-top: 19px !important;
+}
+
+/* styling the battery */
+
+.subheader__orange {
+    display: flex;
+    align-items: center;
+}
+
+.back__image {
+    padding-left: 19px;
+    padding-right: 120px;
+}
+
+.orange__4g {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.6px;
+    line-height: 13px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.battery__orange {
+    width: 22px;
+    height: 11px;
+    display: flex;
+    align-items: center;
+    padding-left: 1px;
+    border: 1px solid #929292;
+    border-radius: 2px;
+    padding: 1px;
+}
+
+.border__orange {
+    width: 1px;
+    height: 3px;
+    background: #929292;
+}
+
+.level__orange {
+    width: 14px;
+    height: 100%;
+    background: #000000;
+}
+
+.orange__battery {
+    display: flex;
+    align-items: center;
+    gap: 1px
+}
+
+.orange__right {
+    display: flex;
+    align-items: center;
+    gap:3px
+}
+
+.border__grey { 
+    border:1px solid #818181
+
+}
+
+.battery__bar{ 
+    width: 1px;
+height: 3px;
+
+background: #929292;
+}
