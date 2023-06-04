@@ -31,7 +31,7 @@ function App() {
   const handleCaptureScreenshot = () => {
     Screenshot.handleCaptureScreenshot(divRef);
   };
-  const [value, setValue] = useState("redCross");
+  const [value, setValue] = useState("orange");
   const [amount, setAmount] = useState(200);
   const [size, setSize] = useState("small");
   const [
