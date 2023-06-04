@@ -20,21 +20,15 @@ function Sidebar({
   clear,
 }) {
   const [amount, setamount] = useState(200);
-  const [listamount , setlistamount] = useState([200])
-const [bank, setbank] = useState("orange"); 
+  const [listamount, setlistamount] = useState([200]);
+  const [bank, setbank] = useState("orange");
   useEffect(() => {
-    let data;
-
-
-    if(bank ==="redCross") { 
-      setlistamount([200,800])
+    if (bank === "redCross") {
+      setlistamount([200, 800]);
+    } else {
+      setlistamount([200, 800, 1500, 2500]);
     }
-     else { 
-    setlistamount([200,800,1500,2500])
-  }
-
-
-  }, [value,listamount]);
+  }, [value, listamount]);
 
   const change = (event) => {
     event.preventDefault();
@@ -43,16 +37,16 @@ const [bank, setbank] = useState("orange");
     let a = Math.floor(100000000000 + Math.random() * 900000000000);
   };
 
-  const choosebank = (e) => { 
-    setvalue(e.target.value)
-    setbank(e.target.value)
-  }
+  const choosebank = (e) => {
+    setvalue(e.target.value);
+    setbank(e.target.value);
+  };
 
   return (
     <div className="app__sidebar">
       <div className="sidebar__form">
         <div className="form__group">
-          <label htmlFor=""> Write the Amount</label>
+          <label htmlFor=""> Choose the Amount</label>
           <select onClick={change}>
             {listamount.map((item, index) => (
               <option value={item}>{item}</option>
@@ -61,11 +55,7 @@ const [bank, setbank] = useState("orange");
         </div>
         <div className="form__group">
           <label htmlFor=""> Select bank</label>
-          <select
-            name="bank"
-            className="app__select"
-            onChange={choosebank}
-          >
+          <select name="bank" className="app__select" onChange={choosebank}>
             {optionBank.map(
               (item, index) =>
                 CheckAmoutn.checkAmount(amount, item.value) && (
