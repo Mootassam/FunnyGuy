@@ -1,12 +1,12 @@
 import { useRef, useState, useEffect } from "react";
 import "./App.css";
-// import Bank from "./component/bank/bank";
+import Bank from "./component/bank/bank";
 import Header from "./layout/Header";
 import Sidebar from "./layout/sidebar/Sidebar";
 // import Thankyou from "./component/Thankyou/Thankyou";
-// import Hkd from "./component/bank/Hkd";
+import Hkd from "./component/bank/Hkd";
 import Screenshot from "./shared/Screenshot";
-// import Fps from "./component/Fps/Fps";
+import Fps from "./component/Fps/Fps";
 // import Alipay from "./component/ALipay/Alipay";
 // import Pay from "./component/Pay/Pay";
 // import LiviBank from "./component/Livi/LiviBank";
@@ -26,6 +26,7 @@ import Orange from "./component/Orange/Orange";
 import { DrawingApp } from "./shared/DrawingApp";
 import RedCross from "./component/RedCross/RedCross";
 import Hsbc from "./component/Hsbc/Hsbc";
+import Cross from "./component/Cross/Cross";
 
 function App() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -55,9 +56,9 @@ function App() {
           {...toolbarProps}
         />
         <div className="content" ref={divRef}>
-          {/* {value === "800" && size === "small" && <Hkd amount={amount} />}
+          {value === "800" && size === "small" && <Hkd amount={amount} />}
           {value === "800" && size === "large" && <Bank amount={amount} />}
-          {value === "fps" && <Fps amount={amount} />} */}
+          {/* {value === "fps" && <Fps amount={amount} />} */}
           {/* {value === "thankyou" && <Thankyou amount={amount} />} */}
           {/* {value === "thank" && <Thank amount={amount} />}
           {value === "alipay" && <Alipay amount={amount} />}
@@ -77,6 +78,7 @@ function App() {
           {value === "orange" && <Orange amount={amount} />}
           {value === "redCross" && <RedCross  amount={amount} />}
           {value ==="hsbc" && <Hsbc amount={amount} />}
+          {value ==="cross" && <Cross amount={amount} />}
         </div>
         <div></div>
         <div></div>
