@@ -22,12 +22,15 @@ function Sidebar({
   const [amount, setamount] = useState(200);
   const [listamount, setlistamount] = useState([200]);
   const [bank, setbank] = useState("orange");
-  useEffect(() => {
+  const updateAmount=()=> {
     if (bank === "redCross") {
       setlistamount([200, 800]);
     } else {
       setlistamount([200, 800, 1500, 2500]);
     }
+  }
+  useEffect(() => {
+    updateAmount()
   }, [value, listamount]);
 
   const change = (event) => {

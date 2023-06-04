@@ -25,6 +25,7 @@ import Green from "./component/green/Green";
 import Orange from "./component/Orange/Orange";
 import { DrawingApp } from "./shared/DrawingApp";
 import RedCross from "./component/RedCross/RedCross";
+import Hsbc from "./component/Hsbc/Hsbc";
 
 function App() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -42,7 +43,7 @@ function App() {
   
   return (
     <>
-      <Header />
+      <Header />\
       <div className="app__content">
         <Sidebar
           screenshot={handleCaptureScreenshot}
@@ -51,7 +52,6 @@ function App() {
           setAmount={setAmount}
           setSize={setSize}
           size={value}
-
           {...toolbarProps}
         />
         <div className="content" ref={divRef}>
@@ -76,6 +76,7 @@ function App() {
           {value === "green" && <Green amount={amount} />}
           {value === "orange" && <Orange amount={amount} />}
           {value === "redCross" && <RedCross  amount={amount} />}
+          {value ==="hsbc" && <Hsbc amount={amount} />}
         </div>
         <div></div>
         <div></div>
