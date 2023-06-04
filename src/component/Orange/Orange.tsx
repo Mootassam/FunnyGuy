@@ -101,13 +101,13 @@ function Orange(props) {
 
         <div className="orange__transaction __16">
           <label htmlFor="">收款人姓名：</label>
-          <span className="payname__orange">{Names.randomName()} {Names.generateRandomNames()}</span>
+          <span className="payname__orange">KONG K*** R** C****</span>
         </div>
 
         <div className="orange__transaction __16">
           <label htmlFor="">收款帳戶</label>
           <span className="transaction__orange">
-            368{Number.generateRandom8Number()}
+            164279317
           </span>
         </div>
 

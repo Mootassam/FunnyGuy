@@ -39,6 +39,7 @@ function App() {
     { startDrawing, draw, endDrawing, ...api },
   ] = DrawingApp();
   const toolbarProps = { color, ...api };
+  
   return (
     <>
       <Header />
@@ -53,7 +54,6 @@ function App() {
           {...toolbarProps}
         />
         <div className="content" ref={divRef}>
-       
           {value === "800" && size === "small" && <Hkd amount={amount} />}
           {value === "800" && size === "large" && <Bank amount={amount} />}
           {value === "fps" && <Fps amount={amount} />}
