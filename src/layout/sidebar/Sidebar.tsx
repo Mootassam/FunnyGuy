@@ -31,7 +31,7 @@ function Sidebar({
   }
   useEffect(() => {
     updateAmount()
-  }, [value, listamount]);
+  }, [value, bank]);
 
   const change = (event) => {
     event.preventDefault();
