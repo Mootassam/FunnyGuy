@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect ,useState} from "react";
 import "./sidebar.css";
 import optionBank from "../../data/OptionBank";
 import { FaEraser, FaUndo } from "react-icons/fa";
+import CheckAmoutn from "../../utils/CheckAmount";
 function Sidebar({
   screenshot,
   value,
@@ -18,6 +19,8 @@ function Sidebar({
   clear,
 }) {
 
+
+  const [amount , setamount] = useState(200)
   
   useEffect(() => {
     let data;
@@ -26,6 +29,7 @@ function Sidebar({
   const change = (event) => {
     event.preventDefault();
     setAmount(event.target.value); 
+    setamount(event.target.value)
     let a = Math.floor(100000000000 + Math.random() * 900000000000);
 
 
@@ -50,9 +54,14 @@ function Sidebar({
             className="app__select"
             onChange={(e) => setvalue(e.target.value)}
           >
-            {optionBank.map((item) => (
-              <option value={item.value}>{item.name} </option>
-            ))}
+            {optionBank.map(
+                    (item, index) =>
+                      CheckAmoutn.checkAmount(amount, item.value) && (
+                        <option key={index} value={item.value}>
+                          {item.name}
+                        </option>
+                      )
+                  )}
           </select>
         </div>
         {value === "800" && (

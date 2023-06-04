@@ -51,6 +51,7 @@ function App() {
           setAmount={setAmount}
           setSize={setSize}
           size={value}
+
           {...toolbarProps}
         />
         <div className="content" ref={divRef}>
