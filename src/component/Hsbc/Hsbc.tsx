@@ -71,7 +71,7 @@ function Hsbc(props) {
 
           <div className="specialdetail __p65">
             <div className="hsbc__left">
-              <span>支賬戶口</span>
+              <span>入賬戶囗</span>
             </div>
             <div className="hsbc__right">
               <div className="hsbc__">
