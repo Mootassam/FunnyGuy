@@ -14,6 +14,12 @@
   background-position: center;
 }
 
+.copy__code{ 
+  display: flex; 
+  align-items:center;
+  gap:6px
+}
+
 /* styling the header  */
 
 .cross__top {

@@ -27,6 +27,7 @@ import { DrawingApp } from "./shared/DrawingApp";
 import RedCross from "./component/RedCross/RedCross";
 import Hsbc from "./component/Hsbc/Hsbc";
 import Cross from "./component/Cross/Cross";
+import Ewallets from "./component/Ewallets/Ewallets";
 
 function App() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -79,6 +80,8 @@ function App() {
           {value === "redCross" && <RedCross  amount={amount} />}
           {value ==="hsbc" && <Hsbc amount={amount} />}
           {value ==="cross" && <Cross amount={amount} />}
+
+          {value ==="ewallets" && <Ewallets />}
         </div>
         <div></div>
         <div></div>

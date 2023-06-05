@@ -112,7 +112,12 @@ function Cross(props) {
                 {" "}
                 12{Dates.hangseng()}F316{Number.genrateRandom6Number()}
               </span>
-              <span className="copy__code">複製編號</span>
+              <span className="copy__code">
+                
+                <img src="cross/copy.png" width={16} alt="" srcset="" />
+                
+                
+                複製編號</span>
             </div>
           </div>
           <img src="/cross/bar.png" alt="" />
