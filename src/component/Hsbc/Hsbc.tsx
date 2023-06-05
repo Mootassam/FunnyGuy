@@ -63,7 +63,10 @@ function Hsbc(props) {
             <div className="hsbc__right">
               <div className="hsbc__">
                 <span>滙豐 One 港元储蓄</span>
-                <span>634-89{Number.generate4RandomNumber()}-{Number.generate3RandomNumber()}</span>
+                <span>
+                  634-89{Number.generate4RandomNumber()}-
+                  {Number.generate3RandomNumber()}
+                </span>
               </div>
             </div>
           </div>
