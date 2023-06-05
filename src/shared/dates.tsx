@@ -18,7 +18,6 @@ class Dates {
 
   static lividate() {
     const dateTime = moment().format("YYYY/MM/DD");
-
     return dateTime;
   }
 
@@ -77,8 +76,7 @@ class Dates {
 
   static getCurrentDate() {
     const currentDate = moment().format('DD MMM YYYY');
-  
-    return currentDate;
+      return currentDate;
   }
 
 

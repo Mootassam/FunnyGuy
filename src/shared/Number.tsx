@@ -34,11 +34,11 @@ class Number {
     return randomNumber;
   }
 
-  static generateRandom7Number(){ 
+  static generateRandom7Number() {
     const min = 1000000;
-    const max = 9999999; 
-    const randomNumber  =  Math.floor(Math.random() * (max - min +1) ) + min;
-    return randomNumber
+    const max = 9999999;
+    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+    return randomNumber;
   }
 
   static getRandomItem(arr) {
@@ -47,39 +47,49 @@ class Number {
     return item;
   }
 
-  static hongkong(amount) { 
+  static hongkong(amount) {
     const exchangeRate = 1; // Replace with the actual exchange rate
     const hkdAmount = amount * exchangeRate;
-    return hkdAmount.toLocaleString('en-HK', {
-      style: 'currency',
-      currency: 'HKD',
-    }).replace('HK$', '');
+    return hkdAmount
+      .toLocaleString("en-HK", {
+        style: "currency",
+        currency: "HKD",
+      })
+      .replace("HK$", "");
   }
 
-  static hongkongstyle2(amount){ 
+  static hongkongstyle3(amount) {
+    const exchangeRate = 1; // Replace with the actual exchange rate
+    const hkdAmount = amount * exchangeRate;
+    return hkdAmount
+      .toLocaleString("en-HK", {
+        style: "currency",
+        currency: "HKD",
+      })
+      .replace("HK$", "")
+      .replace(".00", "");
+  }
+
+  static hongkongstyle2(amount) {
     const exchangeRate = 1; // Replace with the actual exchange rate
     const hkdAmount = amount * exchangeRate;
     const formattedAmount = hkdAmount.toFixed(2);
     return formattedAmount;
   }
 
-  static generate4RandomNumber(){ 
-    const min = 1000; 
-    const max = 9999; 
-    const randomNumber = Math.floor(Math.random() *  (max - min + 1 )) + min; 
-    return randomNumber
+  static generate4RandomNumber() {
+    const min = 1000;
+    const max = 9999;
+    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+    return randomNumber;
   }
 
-  static generate3RandomNumber(){ 
-    const min = 100; 
-    const max = 999; 
-    const randomNumber = Math.floor(Math.random() *  (max - min + 1 )) + min; 
-    return randomNumber
+  static generate3RandomNumber() {
+    const min = 100;
+    const max = 999;
+    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+    return randomNumber;
   }
-
-
-
-
-  }
+}
 
 export default Number;
