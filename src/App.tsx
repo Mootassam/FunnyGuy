@@ -28,6 +28,7 @@ import RedCross from "./component/RedCross/RedCross";
 import Hsbc from "./component/Hsbc/Hsbc";
 import Cross from "./component/Cross/Cross";
 import Ewallets from "./component/Ewallets/Ewallets";
+import Fpswallet from "./component/Fpswallet/Fpswallet";
 
 function App() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -45,7 +46,7 @@ function App() {
   
   return (
     <>
-      <Header />\
+      <Header />
       <div className="app__content">
         <Sidebar
           screenshot={handleCaptureScreenshot}
@@ -80,8 +81,7 @@ function App() {
           {value === "redCross" && <RedCross  amount={amount} />}
           {value ==="hsbc" && <Hsbc amount={amount} />}
           {value ==="cross" && <Cross amount={amount} />}
-
-          {value ==="ewallets" && <Ewallets />}
+          {value ==="ewallets" && <Fpswallet amount={amount} />}
         </div>
         <div></div>
         <div></div>

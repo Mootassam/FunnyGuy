@@ -114,7 +114,7 @@ function Cross(props) {
               </span>
               <span className="copy__code">
             
-                <img src="cross/copy.png" width={16} alt="" srcset="" />
+                <img src="cross/copy.png" width={16} alt="" />
                 
                 
                 複製編號</span>

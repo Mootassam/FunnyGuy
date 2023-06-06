@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap");
+.app__fpswallet {
+  width: 369px;
+  height: 800px;
+  background-color: #fff;
+
+  position: relative;
+}
+
+/* stlying the bottom */
+
+.fpswallet__bottom {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+  bottom: 7px;
+  display: flex;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.fpswallet__border {
+  width: 131px;
+  height: 4px;
+
+  background: #292929;
+  border-radius: 3px;
+}
+
+.fpswallet__code {
+  width: 229px;
+  height: 55px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 3px;
+}
+
+.fspwallet__chinese {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.6px;
+  line-height: 13px;
+  color: #111111 !important;
+}
+
+.fpswallet__frn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.7px;
+  line-height: 14px;
+
+  color: #5b5b5b;
+}
+
+/* 
+stlying the data */
+
+.fpswallet__data {
+  display: flex;
+  align-items: baseline;
+  gap: 1.7px;
+}
+
+.fps__1 {
+  width: 3.3px;
+  height: 5px;
+  background: #000000;
+  border-radius: 1px;
+}
+.fps__2 {
+  width: 3.3px;
+  height: 7px;
+  background: #000000;
+  border-radius: 1px;
+}
+
+.fps__3 {
+  width: 3.3px;
+  height: 10px;
+  background: #000000;
+  border-radius: 1px;
+}
+.fps__4 {
+  width: 3.3px;
+  height: 12px;
+  background: #c8c8c8;
+  border-radius: 1px;
+}
+
+.fpswallet__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 14px 28px 22px 46px;
+}
+
+.fpswallet__time {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.fpswallet__subheaer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+}
+
+.fpswallet__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 65px;
+}
+.fpswallet__text {
+  padding-top: 20px;
+  max-width: 301px;
+  text-align: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 118.2%;
+  /* or 17px */
+
+  color: #000000;
+}
+
+.gras__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.8px;
+  line-height: 118.2%;
+  /* or 16px */
+  color: #000000;
+}
+
+.fpswallet__amount {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding-top: 17px;
+}
+
+.fpswallet__currency {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #b80b07;
+}
+
+.fpswallet__money {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.6px;
+  line-height: 24px;
+  color: #b80b07;
+}
+
+.fpswallet__sent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  gap: 5px;
+}
+
+.sent__text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.sent__date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #868686;
+}
+
+.fps__namedata {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.fpswallet__battery {
+  display: flex;
+  gap: 5.6px;
+  align-items: center;
+
+}
+
+.fpswallet__bat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1px
+}
+
+.batt__wallet {
+  width: 25px;
+  height: 13px;
+  border: 1px solid #C3C3C3;
+ 
+  border-radius: 4px;
+  padding: 1px;
+  border-radius: 4px;
+}
+.fps__level{ 
+    height: 100%;
+    width: 100%;
+    background-color: #060606;
+    border-radius: 2px;
+
+}
+
+.border__fps {
+    width: 1.3px;
+    height: 3px;
+    background: #C3C3C3;
+}

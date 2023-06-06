@@ -3,7 +3,7 @@ const optionBank = [
   { name: "PAYBUDDY", value: "orange" },
   { name: "HSBC", value: "hsbc" },
   {name :"CROSS" , value :"cross"},
-  // {name :"Ewallets" , value :"ewallets"}
+  {name :"Ewallets" , value :"ewallets"}
 ];
 
 export default optionBank;

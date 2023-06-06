@@ -21,12 +21,10 @@ class Dates {
     return dateTime;
   }
 
-
-  static date(){ 
-    const date = moment().format('DD-MM-YYYY') ;
-    return date; 
+  static date() {
+    const date = moment().format("DD-MM-YYYY");
+    return date;
   }
-
 
   static hangSeng() {
     const date = moment().format("DD/MM/YYYY");
@@ -53,34 +51,39 @@ class Dates {
       formattedDate = "Today, " + currentDate.format("DD MMM YYYY");
     } else {
       formattedDate = currentDate.format("DD MMM YYYY");
-    } 
-    return formattedDate
-  }
-
-
-  static generateRandomDateNumber() {
-    const currentDate = moment();
-    const formattedDate = currentDate.format('YYYYMMDD');
+    }
     return formattedDate;
   }
 
-  static generatedate(){ 
-    const date = moment().format('YYMMDD') 
-    return date
+  static generateRandomDateNumber() {
+    const currentDate = moment();
+    const formattedDate = currentDate.format("YYYYMMDD");
+    return formattedDate;
   }
 
-  static hangseng(){ 
-    const date = moment().format('YYMDD') ;
+  static generatedate() {
+    const date = moment().format("YYMMDD");
+    return date;
+  }
+
+  static hangseng() {
+    const date = moment().format("YYMDD");
     return date;
   }
 
   static getCurrentDate() {
-    const currentDate = moment().format('DD MMM YYYY');
-      return currentDate;
+    const currentDate = moment().format("DD MMM YYYY");
+    return currentDate;
   }
 
-
-
+  static fpsdate() {
+    const currentDate = moment().format("HH:mm DD/MM/YYYY");
+    return currentDate;
+  }
+  static currentTime12() {
+    const currentTime = moment().format('HH:mm');
+    return currentTime;
+  }
 }
 
 export default Dates;
