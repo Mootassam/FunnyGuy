@@ -120,7 +120,7 @@ function Green(props) {
         </div>
 
         <div className="secondline__">
-          <div className="detaill__gleft">收款銀行</div>
+          <div className="detaill__gleft">支賬戶口</div>
 
           <div className="detaill__rightg">
             <div className="hongkong__dollar"> 港元储蓄</div>
@@ -134,7 +134,7 @@ function Green(props) {
       <div className="grenn__seperate __pg17"> </div>
 
       <div className="third__line">
-        <div className="detaill__gleft">收款戶口</div>
+        <div className="detaill__gleft">金額</div>
         <div className="detaill__gright">
           <div className="green__amount">
             {" "}
