@@ -52,7 +52,10 @@ function Mox(props) {
         </div>
 
         <div className="circle__subheader">
-          <span>成功</span>
+          <span>
+            <img src="/mox/chinese.png" alt=""  width={48} />
+            
+         </span>
         </div>
 
         <div className="circle__subdescription">
