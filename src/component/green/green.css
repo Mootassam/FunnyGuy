@@ -155,8 +155,6 @@
   color: #303030;
 }
 
-
-
 .green__first {
   padding-top: 18px;
   padding-right: 12px;
@@ -283,13 +281,14 @@
   margin-top: 19px;
   width: 100%;
   height: 26px;
-  background: #f8f8f8;
-}
+  background: linear-gradient(180deg, #F7F7F7 0%, #F5F5F5 46.74%, #E6E6E6 100%);}
 
 .green__bottom {
-  width: 100%;
-  background: #ffffff;
   position: relative;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  background-color: #ffff;
 }
 
 /* stlying the button  */
@@ -334,7 +333,7 @@
 }
 
 .button__colletions {
-  padding-top: 17px;
+  
   display: flex;
   flex-direction: column;
   gap: 16px;

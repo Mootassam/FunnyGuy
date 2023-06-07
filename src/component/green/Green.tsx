@@ -123,15 +123,13 @@ function Green(props) {
       </div>
 
       <div className="seperate__grey">
-        
         <div className="hidetext">甘做计音审顶</div>
         <div></div>
       </div>
 
-
-<div  className="logo__absoulte">
-<img src="/Green/green.png" alt="" width={51} className="logo__green" />
-</div>
+      <div className="logo__absoulte">
+        <img src="/Green/green.png" alt="" width={51} className="logo__green" />
+      </div>
       <div className="green__bottom">
         <div className="button__colletions">
           <div className="button__green">
