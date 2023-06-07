@@ -14,21 +14,20 @@ function Green(props) {
             <span className="time__green">{Dates.currentTime12()}</span>
           </div>
           <div className="grenn__battery">
-
-          <div className="hdk__data">
-            <div className="data__1">
-              <div></div>
-              <div className="div__4"></div>
-              <div className="div__5"></div>
-              <div className="div__6 __grey"></div>
+            <div className="hdk__data">
+              <div className="data__1">
+                <div></div>
+                <div className="div__4"></div>
+                <div className="div__5"></div>
+                <div className="div__6 __grey"></div>
+              </div>
+              <div className="data__2">
+                <div></div>
+                <div></div>
+                <div className=""></div>
+                <div className="__grey"></div>
+              </div>
             </div>
-            <div className="data__2">
-              <div></div>
-              <div></div>
-              <div className=""></div>
-              <div className="__grey"></div>
-            </div>
-          </div>
             <FaWifi size={14} />
             <div className="battery__green">
               <img
@@ -38,7 +37,10 @@ function Green(props) {
                 className="charge"
               />
 
-              <div className="greenn__level" style={{width: `${limit}%`}}></div>
+              <div
+                className="greenn__level"
+                style={{ width: `${limit}%` }}
+              ></div>
             </div>
           </div>
         </div>
@@ -110,7 +112,7 @@ function Green(props) {
         <div className="green__first">
           <div className="detaill__gleft">收款銀行</div>
           <div className="detaill__gright">
-            <div className="green__bank">恒生銀行有限公司 (024）</div>
+            <div className="green__bank">恒生銀行有限公司 (024)</div>
           </div>
         </div>
         <div className="bar__auto p__19">
