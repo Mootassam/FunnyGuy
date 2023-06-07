@@ -48,7 +48,7 @@ function Green(props) {
           <div></div>
           <div className="green__completed">已完成</div>
           <div>
-            <img src="/Green/phone.png" alt="" width={16} />
+            <img src="/Green/phone.jpg" alt="" width={16} />
           </div>
         </div>
       </div>
@@ -76,8 +76,7 @@ function Green(props) {
 
       <div className="green__icon">
         <div className="green__heart">
-          <img src="/Green/heart.png" alt="" width={18} />
-
+          <img src="/Green/heart.jpg" alt="" width={18} />
           <label htmlFor="" className="common__payee">
             常用收款人
           </label>
@@ -88,7 +87,7 @@ function Green(props) {
         </div>
 
         <div className="green__heart">
-          <img src="/Green/save.png" alt="" width={18} />
+          <img src="/Green/save.jpg" alt="" width={18} />
 
           <label htmlFor="" className="common__payee">
             常用收款人
