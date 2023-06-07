@@ -82,7 +82,7 @@ function Mox(props) {
           <div className="__mox __p14">
             <span className="first__mox">田</span>
             <span className="second__mox">Current Account</span>
-            <span className="third__mox">000****81 港幣</span>
+            <span className="third__mox">000****{Number.generate2RandomNumber()} 港幣</span>
           </div>
 
           <div className="__mox">

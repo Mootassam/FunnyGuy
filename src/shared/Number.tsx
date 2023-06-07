@@ -90,6 +90,14 @@ class Number {
     const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
     return randomNumber;
   }
+
+
+  static generate2RandomNumber() {
+    const min = 10;
+    const max = 99;
+    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+    return randomNumber;
+  }
 }
 
 export default Number;
