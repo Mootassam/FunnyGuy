@@ -1,17 +1,47 @@
 import React from "react";
 import "./green.css";
+import Number from "../../shared/Number";
+import Dates from "../../shared/dates";
+import { FaWifi } from "react-icons/fa";
 function Green(props) {
+  const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
+
   return (
     <div className="app__green">
       <div className="green_header">
         <div className="green__top">
           <div className="green__time">
-            <span className="time__green">1:15</span>
+            <span className="time__green">{Dates.currentTime12()}</span>
           </div>
+          <div className="grenn__battery">
 
-          <div className="grenn__battery"></div>
+          <div className="hdk__data">
+            <div className="data__1">
+              <div></div>
+              <div className="div__4"></div>
+              <div className="div__5"></div>
+              <div className="div__6 __grey"></div>
+            </div>
+            <div className="data__2">
+              <div></div>
+              <div></div>
+              <div className=""></div>
+              <div className="__grey"></div>
+            </div>
+          </div>
+            <FaWifi size={14} />
+            <div className="battery__green">
+              <img
+                src="/Green/charge.png"
+                alt=""
+                height={10}
+                className="charge"
+              />
+
+              <div className="greenn__level" style={{width: `${limit}%`}}></div>
+            </div>
+          </div>
         </div>
-
         <div className="green__subheader">
           <div></div>
           <div className="green__completed">已完成</div>
@@ -27,12 +57,13 @@ function Green(props) {
         <div className="green__circle">
           <img src="/Green/check.png" width={25} alt="" />
         </div>
-
         <div className="design__circle">
           <div className="green__completeds">已完成交易</div>
           <div className="green__date">
             <span className="date__text"> 參考編號</span>
-            <span className="date__time">N60456021385</span>
+            <span className="date__time">
+              N60456{Number.genrateRandom6Number()}
+            </span>
           </div>
         </div>
       </div>
@@ -91,7 +122,10 @@ function Green(props) {
 
           <div className="detaill__rightg">
             <div className="hongkong__dollar"> 港元储蓄</div>
-            <div className="hongkong__number">254-347123-882</div>
+            <div className="hongkong__number">
+              254-34{Number.generate4RandomNumber()}-
+              {Number.generate3RandomNumber()}
+            </div>
           </div>
         </div>
       </div>
@@ -100,7 +134,10 @@ function Green(props) {
       <div className="third__line">
         <div className="detaill__gleft">收款戶口</div>
         <div className="detaill__gright">
-          <div className="green__amount"> 港元 800.00</div>
+          <div className="green__amount">
+            {" "}
+            港元 {Number.hongkong(props.amount)}
+          </div>
         </div>
       </div>
 
@@ -111,7 +148,7 @@ function Green(props) {
       <div className="third__line">
         <div className="detaill__gleft">轉賬日期</div>
         <div className="detaill__gright">
-          <div className="green__amount"> 即時 04/06/2023</div>
+          <div className="green__amount"> 即時 {Dates.hangSeng()}</div>
         </div>
       </div>
       <div className="bar__auto">
