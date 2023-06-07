@@ -4,7 +4,8 @@ const optionBank = [
   { name: "HSBC", value: "hsbc" },
   { name: "CROSS", value: "cross" },
   { name: "Ewallets", value: "ewallets" },
-  {name:"green" , value:'green'}
+  {name:"green" , value:'green'},
+  {name:"Mox Bank" , value:"mox"}
 ];
 
 export default optionBank;

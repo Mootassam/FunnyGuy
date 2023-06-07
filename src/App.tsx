@@ -29,6 +29,7 @@ import Hsbc from "./component/Hsbc/Hsbc";
 import Cross from "./component/Cross/Cross";
 import Ewallets from "./component/Ewallets/Ewallets";
 import Fpswallet from "./component/Fpswallet/Fpswallet";
+import Mox from "./component/Mox/Mox";
 
 function App() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -77,12 +78,13 @@ function App() {
           {value === "fly3" && <Fly3 amount={amount} />}
           {value === "blue" && <Blue amount={amount} />}
           {value === "green" && <Green amount={amount} />} */}
-                    {value === "green" && <Green amount={amount} />}
+          {value === "green" && <Green amount={amount} />}
           {value === "orange" && <Orange amount={amount} />}
           {value === "redCross" && <RedCross amount={amount} />}
           {value === "hsbc" && <Hsbc amount={amount} />}
           {value === "cross" && <Cross amount={amount} />}
           {value === "ewallets" && <Fpswallet amount={amount} />}
+          {value === "mox" && <Mox  amount={amount} />}
         </div>
         <div></div>
         <div></div>
