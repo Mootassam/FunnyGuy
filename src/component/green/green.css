@@ -281,6 +281,7 @@
   margin-top: 19px;
   width: 100%;
   height: 26px;
+  border-top: 1px solid #ECECEC;
   background: linear-gradient(180deg, #F7F7F7 0%, #F5F5F5 46.74%, #E6E6E6 100%);}
 
 .green__bottom {
