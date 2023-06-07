@@ -60,6 +60,7 @@
 .green__date {
   display: flex;
   align-items: center;
+  gap:4.3px
 }
 
 .date__text {

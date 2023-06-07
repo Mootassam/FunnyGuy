@@ -62,7 +62,7 @@ function Green(props) {
         <div className="design__circle">
           <div className="green__completeds">已完成交易</div>
           <div className="green__date">
-            <span className="date__text"> 參考編號</span>
+            <span className="date__text"> 參考編號:</span>
             <span className="date__time">
               N60456{Number.genrateRandom6Number()}
             </span>
