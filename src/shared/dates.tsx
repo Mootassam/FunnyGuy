@@ -81,7 +81,10 @@ class Dates {
     return currentDate;
   }
   static currentTime12() {
-    const currentTime = moment().format("h:mm A").replace('PM', '').replace("AM" , '');
+    const currentTime = moment()
+      .format("h:mm A")
+      .replace("PM", "")
+      .replace("AM", "");
     return currentTime;
   }
 }

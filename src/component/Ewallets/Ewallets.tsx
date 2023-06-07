@@ -31,16 +31,14 @@ function Ewallets() {
             <div className="date__fps"> 2023-06-04 21:46:32</div>
           </div>
 
-     
           <img src="/ewallets/bar.png" alt="" />
-         
+
           <div className="firstline __receiver">
             <div className="label__name">Receiver Name</div>
             <div className="bank__receiver"> hongKong Red cross</div>
           </div>
-       
+
           <img src="/ewallets/bar.png" alt="" />
- 
         </div>
       </div>
     </div>

@@ -53,11 +53,7 @@ function Cross(props) {
         <div className="cross__subheader">
           <div></div>
           <div>
-
-
-<img src="/cross/headphone.png" alt=""  width={20}/>
-
-
+            <img src="/cross/headphone.png" alt="" width={20} />
           </div>
         </div>
       </div>
@@ -113,11 +109,9 @@ function Cross(props) {
                 12{Dates.hangseng()}F316{Number.genrateRandom6Number()}
               </span>
               <span className="copy__code">
-            
                 <img src="cross/copy.png" width={16} alt="" />
-                
-                
-                複製編號</span>
+                複製編號
+              </span>
             </div>
           </div>
 

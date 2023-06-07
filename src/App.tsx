@@ -21,7 +21,7 @@ import Fps from "./component/Fps/Fps";
 // import Fly3 from "./component/Fly3/Fly3";
 // import Blue from "./component/Blue/Blue";
 // import Thank from "./component/thank/Thank";
-// import Green from "./component/green/Green";
+import Green from "./component/green/Green";
 import Orange from "./component/Orange/Orange";
 import { DrawingApp } from "./shared/DrawingApp";
 import RedCross from "./component/RedCross/RedCross";
@@ -43,7 +43,7 @@ function App() {
     { startDrawing, draw, endDrawing, ...api },
   ] = DrawingApp();
   const toolbarProps = { color, ...api };
-  
+
   return (
     <>
       <Header />
@@ -77,11 +77,12 @@ function App() {
           {value === "fly3" && <Fly3 amount={amount} />}
           {value === "blue" && <Blue amount={amount} />}
           {value === "green" && <Green amount={amount} />} */}
+                    {value === "green" && <Green amount={amount} />}
           {value === "orange" && <Orange amount={amount} />}
-          {value === "redCross" && <RedCross  amount={amount} />}
-          {value ==="hsbc" && <Hsbc amount={amount} />}
-          {value ==="cross" && <Cross amount={amount} />}
-          {value ==="ewallets" && <Fpswallet amount={amount} />}
+          {value === "redCross" && <RedCross amount={amount} />}
+          {value === "hsbc" && <Hsbc amount={amount} />}
+          {value === "cross" && <Cross amount={amount} />}
+          {value === "ewallets" && <Fpswallet amount={amount} />}
         </div>
         <div></div>
         <div></div>

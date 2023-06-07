@@ -3,7 +3,7 @@ import "./Fpswallet.css";
 import Number from "../../shared/Number";
 import Dates from "../../shared/dates";
 function Fpswallet(props) {
-    const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
+  const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
   const { amount } = props;
   return (
@@ -22,20 +22,26 @@ function Fpswallet(props) {
 
           <div className="fpswallet__bat">
             <div className="batt__wallet">
-              <div className="fps__level" style={{ width :`${limit}%` }}></div>
+              <div className="fps__level" style={{ width: `${limit}%` }}></div>
             </div>
             <div className="border__fps"></div>
           </div>
         </div>
       </div>
       <div className="fpswallet__subheaer">
-        <div> <img src="/ewallets/back.png" alt=""  width={14} /></div>
+        <div>
+          {" "}
+          <img src="/ewallets/back.png" alt="" width={14} />
+        </div>
       </div>
 
       <div className="fpswallet__bottom">
         <div className="fpswallet__code">
           <div className="fspwallet__chinese">交易编號</div>
-          <div className="fpswallet__frn">FRN{Dates.generateRandomDateNumber()}PAYC01010{Number.generateRandom8Number()}</div>
+          <div className="fpswallet__frn">
+            FRN{Dates.generateRandomDateNumber()}PAYC01010
+            {Number.generateRandom8Number()}
+          </div>
         </div>
         <div className="fpswallet__border"></div>
       </div>
