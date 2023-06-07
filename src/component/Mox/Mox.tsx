@@ -57,7 +57,7 @@ function Mox(props) {
 
         <div className="circle__subdescription">
           您的付款已成功轉賬至收款人
-          <span>。</span>
+          <span className="positon__re">。</span>
         </div>
       </div>
 
