@@ -61,6 +61,16 @@ class Dates {
     return formattedDate;
   }
 
+
+  static moxdate(){ 
+    const currentDate = moment();
+    const formattedDate = currentDate.format("DD/MM/YYYY");
+    return formattedDate;
+  }
+
+
+
+
   static generatedate() {
     const date = moment().format("YYMMDD");
     return date;

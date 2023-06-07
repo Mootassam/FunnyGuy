@@ -2,6 +2,7 @@ import React from "react";
 import "./Mox.css";
 import Number from "../../shared/Number";
 import { IoIosWifi } from "react-icons/io";
+import Dates from "../../shared/dates";
 function Mox(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
@@ -92,7 +93,7 @@ function Mox(props) {
 
           <div className="__mox">
             <span className="first__mox">交易日期</span>
-            <span className="second__mox">17/03/2023</span>
+            <span className="second__mox">{Dates.moxdate()}</span>
           </div>
 
           <div className="__mox">
@@ -107,7 +108,10 @@ function Mox(props) {
 
           <div className="__mox">
             <span className="first__mox">參考編號</span>
-            <span className="second__mox">50202303172229717600</span>
+            <span className="second__mox">
+              50{Dates.generateRandomDateNumber()}2229
+              {Number.genrateRandom6Number()}
+            </span>
           </div>
         </div>
       </div>
