@@ -93,3 +93,12 @@ input[type="color"]::-webkit-color-swatch {
 .erase__button:active{ 
 
 }
+
+.list__bank{ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__bank > div { 
+  cursor: pointer;
+}

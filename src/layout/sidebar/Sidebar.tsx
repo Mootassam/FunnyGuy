@@ -22,15 +22,15 @@ function Sidebar({
   const [amount, setamount] = useState(200);
   const [listamount, setlistamount] = useState([200]);
   const [bank, setbank] = useState("orange");
-  const updateAmount=()=> {
+  const updateAmount = () => {
     if (bank === "redCross") {
       setlistamount([200, 800]);
     } else {
       setlistamount([200, 800, 1500, 2500]);
     }
-  }
+  };
   useEffect(() => {
-    updateAmount()
+    updateAmount();
   }, [value, bank]);
 
   const change = (event) => {
@@ -69,6 +69,21 @@ function Sidebar({
             )}
           </select>
         </div>
+
+        {value === "hsbc" && (
+          <div className="list__bank">
+            <div>
+              <img src="/sidebar/bea.png" alt="" width={60} />
+            </div>
+            <div>
+              <img src="/sidebar/bankchina.jpg" alt="" width={109} />
+            </div>
+            <div>
+              <img src="/sidebar/HangSeng.png" alt="" width={60} />
+            </div>
+          </div>
+        )}
+
         {value === "800" && (
           <div className="form__group">
             <label htmlFor=""> Select Size</label>

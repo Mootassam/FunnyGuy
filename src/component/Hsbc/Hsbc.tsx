@@ -5,6 +5,36 @@ import Number from "../../shared/Number";
 function Hsbc(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
+  const kongKongRedCross = () => {
+    return (
+      <div className="hsbc__">
+        <span>Hong Kong Red Cross</span>
+        <span>024 - 恒生銀行有限公司</span>
+        <span>388553950001</span>
+      </div>
+    );
+  };
+
+  const bankChina = () => {
+    return (
+      <div className="hsbc__">
+        <span>Hong Kong Red Cross</span>
+        <span>012- 中国银行（香港）有限公司</span>
+        <span>01280600028173</span>
+      </div>
+    );
+  };
+
+  const bea = () => {
+    return (
+      <div className="hsbc__">
+        <span>Hong Kong Red Cross</span>
+        <span>015- 東亞銀行有限公司</span>
+        <span>015514104011221</span>
+      </div>
+    );
+  };
+
   return (
     <div className="app__hsbc">
       <div className="hsbc__header">
@@ -76,13 +106,7 @@ function Hsbc(props) {
             <div className="hsbc__left">
               <span>入賬戶囗</span>
             </div>
-            <div className="hsbc__right">
-              <div className="hsbc__">
-                <span>Hong Kong Red Cross</span>
-                <span>024 - 恒生銀行有限公司</span>
-                <span>388553950001</span>
-              </div>
-            </div>
+            <div className="hsbc__right">{kongKongRedCross()}</div>
           </div>
 
           <img src="hsbc/semibar.png" alt="" className="semibar" />
