@@ -122,7 +122,7 @@ function Green(props) {
           <div className="detaill__gleft">支賬戶口</div>
 
           <div className="detaill__rightg">
-            <div className="hongkong__dollar"> 港元储蓄</div>
+            <div className="hongkong__dollar"> 港元 储蓄</div>
             <div className="hongkong__number">
               254-34{Number.generate4RandomNumber()}-
               {Number.generate3RandomNumber()}
