@@ -56,6 +56,7 @@ function Sidebar({
             ))}
           </select>
         </div>
+
         <div className="form__group">
           <label htmlFor=""> Select bank</label>
           <select name="bank" className="app__select" onChange={choosebank}>
@@ -70,19 +71,7 @@ function Sidebar({
           </select>
         </div>
 
-        {value === "hsbc" && (
-          <div className="list__bank">
-            <div>
-              <img src="/sidebar/bea.png" alt="" width={60} />
-            </div>
-            <div>
-              <img src="/sidebar/bankchina.jpg" alt="" width={109} />
-            </div>
-            <div>
-              <img src="/sidebar/HangSeng.png" alt="" width={60} />
-            </div>
-          </div>
-        )}
+    
 
         {value === "800" && (
           <div className="form__group">

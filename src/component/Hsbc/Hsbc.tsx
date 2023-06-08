@@ -35,6 +35,12 @@ function Hsbc(props) {
     );
   };
 
+  const randomBank = () => {
+    const banks = [kongKongRedCross, bankChina, bea];
+    const randomIndex = Math.floor(Math.random() * banks.length);
+    return banks[randomIndex]();
+  };
+
   return (
     <div className="app__hsbc">
       <div className="hsbc__header">
@@ -106,7 +112,7 @@ function Hsbc(props) {
             <div className="hsbc__left">
               <span>入賬戶囗</span>
             </div>
-            <div className="hsbc__right">{kongKongRedCross()}</div>
+            <div className="hsbc__right">{randomBank()}</div>
           </div>
 
           <img src="hsbc/semibar.png" alt="" className="semibar" />

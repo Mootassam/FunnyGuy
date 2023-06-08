@@ -136,7 +136,7 @@ function Green(props) {
         <div className="detaill__gleft">金額</div>
         <div className="detaill__gright">
           <div className="green__amount">
-            {" "}
+         
             港元 {Number.hongkong(props.amount)}
           </div>
         </div>
