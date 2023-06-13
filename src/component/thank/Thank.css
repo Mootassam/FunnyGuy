@@ -38,7 +38,7 @@
   background: #F6F6F6;
 }
 
-.detail__menues > div > label {
+.detail__menues>div>label {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -55,14 +55,15 @@
   padding: 4px 19px 7px 24px;
   justify-content: space-between;
 }
-.detail__menues > div {
+
+.detail__menues>div {
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 9px;
 }
 
-.button__another > label {
+.button__another>label {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -72,6 +73,7 @@
 
   color: #262626;
 }
+
 .button__another {
   width: 341px;
   height: 46px;
@@ -98,6 +100,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .bg__time {
   align-items: center;
   display: flex;
@@ -111,7 +114,7 @@
   color: #ffffff;
 }
 
-.battery__ > label {
+.battery__>label {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -128,7 +131,7 @@
   padding-left: 20px;
 }
 
-.confirmation > label {
+.confirmation>label {
   padding-left: 34px;
   font-family: "Roboto";
   font-style: normal;
@@ -171,7 +174,7 @@
 .thank__text {
   display: flex;
   flex-direction: column;
-  gap:5px;
+  gap: 5px;
   align-items: center;
   padding-top: 10px;
   font-family: 'Roboto';
@@ -187,6 +190,7 @@
 .thank__detail {
   padding: 30px 15px 0 15px;
 }
+
 .thanks__from {
   display: flex;
   align-items: center;
@@ -210,7 +214,7 @@
   color: #474747;
 }
 
-.thank__right > span {
+.thank__right>span {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -244,6 +248,7 @@
   justify-content: space-between;
   padding-top: 38px;
 }
+
 .thank__to {
   font-family: 'Roboto';
   font-style: normal;
@@ -330,6 +335,7 @@
   height: 1px;
   background: #d9d9d9;
 }
+
 .thank__battery {
   width: 7px;
   height: 9px;
@@ -363,6 +369,7 @@
 
   border: 1.3px solid #ffffff;
 }
+
 .__thank2 {
   width: 0px;
   height: 4px;
@@ -395,9 +402,19 @@
 
 }
 
-.cnx__white { 
-  display:flex;
-gap:2px;
+.cnx__white {
+  display: flex;
+  gap: 2px;
   align-items: center;
   padding-right: 4px
+}
+
+.bartop {
+  height:10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url('/thank/bartop.png');
+  overflow: hidden;
+  background-size: contain;
 }

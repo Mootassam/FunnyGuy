@@ -128,7 +128,7 @@ function Thank(props) {
           <div className="thank__to">Reference number</div>
           <div className="thank__right">
             <label className="number__right">
-              N315768{Number.generate4RandomNumber()}
+              N607646{Number.generate4RandomNumber()}
             </label>
           </div>
         </div>
@@ -142,7 +142,7 @@ function Thank(props) {
       </div>
 
       <div className="thank__bottom">
-        <img src="/thank/bartop.png" alt="" />
+     <div className="bartop"></div>
         <div className="bottom__another">
           <div className="button__another">
             <label htmlFor="">Make another transfer</label>
