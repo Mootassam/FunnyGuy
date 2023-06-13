@@ -20,7 +20,7 @@ import Fps from "./component/Fps/Fps";
 // import Fly2 from "./component/Fly2/Fly2";
 // import Fly3 from "./component/Fly3/Fly3";
 // import Blue from "./component/Blue/Blue";
-// import Thank from "./component/thank/Thank";
+import Thank from "./component/thank/Thank";
 import Green from "./component/green/Green";
 import Orange from "./component/Orange/Orange";
 import { DrawingApp } from "./shared/DrawingApp";
@@ -61,9 +61,10 @@ function App() {
         <div className="content" ref={divRef}>
           {value === "800" && size === "small" && <Hkd amount={amount} />}
           {value === "800" && size === "large" && <Bank amount={amount} />}
+          {value === "thank" && <Thank amount={amount} />}
           {/* {value === "fps" && <Fps amount={amount} />} */}
           {/* {value === "thankyou" && <Thankyou amount={amount} />} */}
-          {/* {value === "thank" && <Thank amount={amount} />}
+          {/* 
           {value === "alipay" && <Alipay amount={amount} />}
           {value === "pay" && <Pay amount={amount} />}
           {value === "livi" && <LiviBank amount={amount} />}

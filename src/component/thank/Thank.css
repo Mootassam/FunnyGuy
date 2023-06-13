@@ -29,12 +29,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff;
 }
 
 .bottom__mobile {
   width: 373px;
   height: 47px;
-  background: #010101;
+  background: #F6F6F6;
 }
 
 .detail__menues > div > label {
@@ -62,11 +63,11 @@
 }
 
 .button__another > label {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 12.6px;
-  line-height: 15px;
+  font-size: 15.5px;
+  line-height: 18px;
   /* identical to box height */
 
   color: #262626;
@@ -86,6 +87,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
+  overflow: hidden;
 }
 
 /* styling the header  */
@@ -156,22 +159,26 @@
 
 .thank__message {
   padding-top: 19px;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
 
   color: #000000;
 }
 
 .thank__text {
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  align-items: center;
   padding-top: 10px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 13.4px;
-  line-height: 16px;
+  font-size: 15.5px;
+  line-height: 18px;
   /* identical to box height */
 
   color: #474747;
@@ -193,22 +200,22 @@
 }
 
 .thank__from {
-  font-family: "Inter";
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
+  font-weight: 400;
+  font-size: 15.5px;
+  line-height: 18px;
   /* identical to box height */
 
   color: #474747;
 }
 
 .thank__right > span {
-  font-family: "Inter";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 11.7px;
-  line-height: 14px;
+  font-size: 15.5px;
+  line-height: 18px;
 
   color: #2a2a2a;
 }
@@ -238,23 +245,22 @@
   padding-top: 38px;
 }
 .thank__to {
-  font-family: "Inter";
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
+  font-weight: 400;
+  font-size: 15.5px;
+  line-height: 18px;
   /* identical to box height */
 
   color: #474747;
 }
 
 .thank__amount {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 12.2px;
-  line-height: 14px;
-
+  font-size: 15.5px;
+  line-height: 18px;
   color: #2a2a2a;
 }
 
@@ -266,7 +272,7 @@
 }
 
 .thanks__date {
-  padding-top: 50px;
+  padding-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -280,11 +286,11 @@
 }
 
 .number__right {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 12.2px;
-  line-height: 14px;
+  font-size: 15.5px;
+  line-height: 18px;
 
   color: #2a2a2a;
 }

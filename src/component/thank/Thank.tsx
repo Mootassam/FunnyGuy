@@ -7,9 +7,6 @@ import Left from "../../shared/icons/Left";
 import { MdBluetoothConnected } from "react-icons/md";
 import { AiOutlineWifi } from "react-icons/ai";
 function Thank(props) {
-  
-
-  
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
   const CheckstatusBattery = () => {
@@ -57,7 +54,10 @@ function Thank(props) {
               <div className="thank__battery">
                 <div
                   className="level__thank"
-                  style={{ height: `${limit}%`, background: CheckstatusBattery(), }}
+                  style={{
+                    height: `${limit}%`,
+                    background: CheckstatusBattery(),
+                  }}
                 ></div>
               </div>
             </div>
@@ -77,7 +77,9 @@ function Thank(props) {
         </div>
         <div className="thank__message">Thank you</div>
         <div className="thank__text">
-          Your transfer has successfully gone through.
+          <span> Your transfer has successfully gone </span>
+
+          <span> through.</span>
         </div>
       </div>
 
@@ -85,20 +87,19 @@ function Thank(props) {
         <div className="thanks__from">
           <div className="thank__from">From</div>
           <div className="thank__right">
-            <span>Personal Integrated Account HKD</span>
-            <span>Savings</span>
-            <span>
-              841-47{Number.generate4RandomNumber()}-
-              {Number.generate3RandomNumber()}
-            </span>
+            <span>HSBC One HKD Savings</span>
+            <span>592-21{Number.generate4RandomNumber()}-{Number.generate3RandomNumber()}</span>
+           
           </div>
         </div>
 
         <div className="thanks__to">
           <div className="thank__to">To</div>
           <div className="thank__right">
-            <span>{Names.generateRandomName()}</span>
-            <span>FPS ID: 10543{Number.generate4RandomNumber()}</span>
+            <span>Hong kong red cross</span>
+            <span> 024-HANG SENG BANK</span>
+            <span> LIMITED</span>
+            <span>388553950001</span>
           </div>
         </div>
 
