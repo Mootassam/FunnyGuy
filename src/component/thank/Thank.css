@@ -410,11 +410,16 @@
 }
 
 .bartop {
-  height:10px;
+
+ 
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   background-image: url('/thank/bartop.png');
   overflow: hidden;
   background-size: contain;
+}
+.barthank{ 
+  height: 1.3px;
+  width: 100%;
 }

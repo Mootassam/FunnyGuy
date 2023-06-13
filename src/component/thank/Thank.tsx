@@ -143,13 +143,14 @@ function Thank(props) {
 
       <div className="thank__bottom">
      <div className="bartop"></div>
+        <img src="/thank/bartop.png" alt="" className="image__moo" />
         <div className="bottom__another">
           <div className="button__another">
             <label htmlFor="">Make another transfer</label>
           </div>
         </div>
         <div className="bottom__menue">
-          <img src="/thank/barthank.png" alt="" />
+          <img src="/thank/barthank.png" alt="" className="barthank" />
 
           <div className="detail__menues">
             <div>
